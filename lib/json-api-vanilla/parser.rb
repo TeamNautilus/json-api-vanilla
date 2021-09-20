@@ -1,5 +1,5 @@
 # Copyright © Trainline Limited, 2016. All rights reserved. See LICENSE.txt in the project root for license information.
-require "json"
+require 'yajl/json_gem'
 
 module JSON::Api; end
 module JSON::Api::Vanilla
