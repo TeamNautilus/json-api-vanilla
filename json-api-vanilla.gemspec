@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.authors     = ['Thaddée Tyl']
   s.email       = ['thaddee.tyl@gmail.com']
   s.homepage    = 'http://github.com/trainline/json-api-vanilla'
-  s.add_runtime_dependency 'yajl-ruby', require: 'yajl'
+  s.add_runtime_dependency 'yajl-ruby'
   s.summary     = %q{Deserialize JSON API formats into vanilla Ruby objects.}
   s.description = %q{Given a JSON API string, we parse it and return a document that can be browsed — as if the objects defined in the file were plain old Ruby objects.}
   s.files       = `git ls-files`.split("\n")
